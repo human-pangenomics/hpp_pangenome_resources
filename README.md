@@ -58,11 +58,7 @@ The graphs are available in gfa format alongside other graph and index files. In
 * snarls format: [snarls](https://github.com/vgteam/vg/wiki/Index-Construction)
 
 #### Filtered Graphs
-Note that there are also two filtered versions of each (grch38 & chm13) of the base graphs. See the indexes for file locations.
-* files with maxdel.10mb in the name have some big bubbles (spurious deletions > 10mb) removed
-* files with minaf.0.1 in the name have big bubbles removed, but are also filtered to remove the nodes not in 10% of haplotypes
-
-The maxdel graphs should be used if your analysis will have issues with the large bubbles in the original graph. The minaf graphs are currently only used for running Giraffe in order to make surjected BAMs.
+The [Giraffe](https://www.biorxiv.org/content/10.1101/2020.12.04.412486v2.abstract) short read mapper relies on the graph's snarl decomposition.  The versions of the Cactus/Minigraph graphs released here contain some spurious large deletion edges that make this decomposition less efficient, which impacts Giraffe *runtime*. Furthermore, we have found that for calling small variants with the Giraffe-[DeepVariant](https://doi.org/10.1038/nbt.4235) pipeline, *accuracy* is improved if all alleles with frequency < 10% are removed from the graph before indexing.  Two filtered versions of each of the two Minigraph/Cactus graphs are available [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/minigraph-cactus/filtered/).  The graphs with `maxdel.10mb` in the name (recommended to speed up general mapping experiments) were created by removing edges that imply deletions > 10mb, and the graphs with `minaf.0.1` in the name (recommended when using with DeepVariant) were created by removing, in addition to the deletions, nodes that are covered by fewer than 9 haplotypes.
 
 ### PGGB
 

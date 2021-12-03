@@ -62,7 +62,7 @@ Note that there are also two filtered versions of each (grch38 & chm13) of the b
 * files with maxdel.10mb in the name have some big bubbles (spurious deletions > 10mb) removed
 * files with minaf.0.1 in the name have big bubbles removed, but are also filtered to remove the nodes not in 10% of haplotypes
 
-The maxdel graphs should be used in place of the base graph wherever possible. The minaf graphs are currently only used for running Giraffe in order to make surjected BAMs.
+The maxdel graphs should be used if your analysis will have issues with the large bubbles in the original graph. The minaf graphs are currently only used for running Giraffe in order to make surjected BAMs.
 
 ### PGGB
 

@@ -19,6 +19,7 @@ Graphs are available from three different strategies summarized in the table (an
 | <sub> long read mapping </sub> | <sub> yes (fastest) </sub> | <sub> yes </sub> | <sub> yes (slowest) </sub> |
 | <sub> Assembly mapping </sub> | <sub> yes (direct) </sub> | <sub> untested </sub> | <sub> yes (via injection) </sub> |
 
+Index files listing file locations for download with the AWS CLI can be found in the indexes folder of this repository. Alternatively, tables are listed below in each graph creation strategy's section. Note that the index files list the file locations with s3:// uris -- as opposed to http:// urls as found in the tables.
 
 ### Assembly Inputs
 
@@ -44,13 +45,36 @@ Graphs and associated files are summarized below.
 
 | <sub>**Description**</sub> | <sub>**GRCh38 Graph**</sub> | <sub>**CHM13 Graph**</sub> |
 | :-------- | :------ | :------ |
-| <sub> graph </sub> | <sub>[base graph](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gfa.gz)</sub> | <sub>[base graph](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gfa.gz)</sub> | 
+| <sub> graph </sub> | <sub>[gfa](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gfa.gz)</sub> | <sub>[gfa](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gfa.gz)</sub> | 
 | <sub> VCF </sub> | <sub>[VCF](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.vcf.gz) &nbsp; &nbsp; [VCF index](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.vcf.gz.tbi) </sub> | <sub> [VCF](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.grch38.vcf.gz) &nbsp; &nbsp; [VCF index](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.grch38.vcf.gz.tbi) </sub> | 
 | <sub> multiple alignment </sub> | <sub>[HAL](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.hal)</sub> | <sub>[HAL](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.hal) </sub> | 
 | <sub> sequences clipped out before alignment </sub> | <sub>[masking](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.masking.tar.gz)</sub> | <sub>[masking](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.masking.tar.gz)</sub> | 
 | <sub> VG indexes </sub> | <sub>[xg](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.xg) &nbsp; &nbsp; [snarls](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.snarls) &nbsp; &nbsp; [trans](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.trans.gz) </sub> | <sub>[xg](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.xg) &nbsp; &nbsp; [snarls](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.snarls) &nbsp; &nbsp; [trans](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.trans.gz) </sub> |
 | <sub> Giraffe indexes </sub> | <sub>[dist](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.dist) &nbsp; &nbsp; [min](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.min) &nbsp; &nbsp; [gg](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gg) &nbsp; &nbsp; [gbwt](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gbwt) </sub> | <sub>[dist](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.dist) &nbsp; &nbsp; [min](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.min) &nbsp; &nbsp; [gg](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gg) &nbsp; &nbsp; [gbwt](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gbwt) </sub> | 
 
+The graphs are available in gfa format alongside other graph and index files. Information about the associated file formats can be found:
+* graph formats: [xg/gg](https://github.com/vgteam/vg/wiki/Index-Types)
+* index formats: [gbwt/dist/min](https://github.com/vgteam/vg/wiki/Index-Types)
+* snarls format: [snarls](https://github.com/vgteam/vg/wiki/Index-Construction)
+
+#### Filtered Graphs
+Note that there are also two filtered versions of each (grch38 & chm13) of the base graphs. See the indexes for file locations.
+* files with maxdel.10mb in the name have some big bubbles (spurious deletions > 10mb) removed
+* files with minaf.0.1 in the name have big bubbles removed, but are also filtered to remove the nodes not in 10% of haplotypes
+
+The maxdel graphs should be used in place of the base graph wherever possible. The minaf graphs are currently only used for running Giraffe in order to make surjected BAMs.
+
 ### PGGB
 
-Coming soon
+The Pangenome Graph Builder pipeline ([PGGB](https://github.com/pangenome/pggb)) creates and all-vs-all graph with base-level alignments and no clipping of mitochondrial or centromeric regions.
+
+Graphs and associated files are summarized below. 
+
+| <sub>**Description**</sub> | <sub>**Location**</sub> |
+| :-------- | :------ |
+| <sub> graph </sub> | <sub> [gfa](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/hprc-v1.0-pggb.gfa.gz) </sub> |
+| <sub> untangle </sub> | <sub> [delta](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/untangle/hprc-v1.0-pggb.all.vs.grch38.untangle-m10000-s0-j0.delta.gz) &nbsp; &nbsp; [paf](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/untangle/hprc-v1.0-pggb.all.vs.grch38.untangle-m10000-s0-j0.paf.gz) </sub> |
+| <sub> VCFs </sub> | <sub> [chm13.1-22+X](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/vcfs/hprc-v1.0-pggb.chm13.1-22%2BX.vcf.gz) &nbsp; &nbsp; [chm13.M](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/vcfs/hprc-v1.0-pggb.chm13.M.vcf.gz) &nbsp; &nbsp; [grch38.1-22+X](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/vcfs/hprc-v1.0-pggb.grch38.1-22%2BX.vcf.gz) &nbsp; &nbsp; [grch38.M](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/vcfs/hprc-v1.0-pggb.grch38.M.vcf.gz) &nbsp; &nbsp; [grch38.Y](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/vcfs/hprc-v1.0-pggb.grch38.Y.vcf.gz) </sub> |
+
+
+Graph chromosome files and images can be found [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/pggb/chroms/) and [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/pggb/images/).

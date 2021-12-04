@@ -74,3 +74,9 @@ Graphs and associated files are summarized below.
 
 
 Graph chromosome files and images can be found [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/pggb/chroms/) and [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/pggb/images/).
+
+### Change Log
+
+```
+* Dec 03, 2021: updated minigraph-cactus VCFs to fix headers (thanks to Wen-Wei)
+```

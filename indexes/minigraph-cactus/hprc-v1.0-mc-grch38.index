@@ -1,0 +1,13 @@
+file,s3_loc,sha256
+hprc-v1.0-mc-grch38.dist,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.dist,b97bb4805f40d97bf1a07253e0cdc77f4c0a4f85661680cf10cd7113f197f580
+hprc-v1.0-mc-grch38.gbwt,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gbwt,4c17082d3eb3a97a46ef0f20abc3fb662ad7ed822e3666fb44d6a264293c06a1
+hprc-v1.0-mc-grch38.gfa.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gfa.gz,1619a259e21172328890ab41f39ac993114c3397d18802bbac5ef1e6cf991cdf
+hprc-v1.0-mc-grch38.gg,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.gg,0d3b051cbed89bb56c113c51019de8fe333c232f88665229cbcc7693c17a0844
+hprc-v1.0-mc-grch38.hal,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.hal,9e24b2775dbaff354980e98fb6c518358e9ced39ceb4f93b984c8491d08a034c
+hprc-v1.0-mc-grch38.masking.tar.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.masking.tar.gz,e7954298e9b9c577284d7db0af9b9a0a48a55e34ee119e82d42df08c2f3635c3
+hprc-v1.0-mc-grch38.min,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.min,1d4625c32ca2b05f93e9cc8062f0277feaa4167b99476ddd82117415f1cc430c
+hprc-v1.0-mc-grch38.snarls,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.snarls,de85d1637a5a58941f34c75652177631d9c960e87b20c108c1a90971dd9a8f89
+hprc-v1.0-mc-grch38.trans.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.trans.gz,ac3eb3370702dbd6bbdef6da0782417f7b5b43d7db6594e846567786f62c6002
+hprc-v1.0-mc-grch38.vcf.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.vcf.gz,6e1d554c0e98a20fcb93655b2cddf818cb0bd5245c68c4dfca3a71ee7739511d
+hprc-v1.0-mc-grch38.vcf.gz.tbi,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.vcf.gz.tbi,c5fa7a39f0521f859ba2260e465f7434e2bf16825b24a4f864432f8e0c5a6d25
+hprc-v1.0-mc-grch38.xg,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.xg,d899e942cfa4c56a10b7859bc21f95b88214bd17c1e272d2a52fc0b390ab0157

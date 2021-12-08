@@ -1,0 +1,15 @@
+file,s3_loc,sha256
+hprc-v1.0-mc-chm13.dist,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.dist,28cea3525fac43d7c1a513c95619a8452132c14a7d0813f14b15393e573aa7d7
+hprc-v1.0-mc-chm13.gbwt,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gbwt,21359568ae71e229f685bca5f323445d6082902e1a9afc0baaad8a8fa5b4ecf4
+hprc-v1.0-mc-chm13.gfa.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gfa.gz,555c940784c012232f9541d732619d247c9eb8bd0dd3944f36eb1d4e717333b7
+hprc-v1.0-mc-chm13.gg,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.gg,d0121db247e018cd7732ea61e66b13d2d3ff6177b2617c7d95876d0c90e8d714
+hprc-v1.0-mc-chm13.grch38.vcf.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.grch38.vcf.gz,8c97127b0dbeefdfc5150377abefd65dabaea5577a31c1c4cd46af9c2b32364e
+hprc-v1.0-mc-chm13.grch38.vcf.gz.tbi,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.grch38.vcf.gz.tbi,fa885999783940da755df289ee116e58a3b612b788508320c0c1b651ad6be554
+hprc-v1.0-mc-chm13.hal,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.hal,a99c34617e2cc43633feeb205b6ab3b93f7f160e0b9fab21b5485fa641ef35d9
+hprc-v1.0-mc-chm13.masking.tar.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.masking.tar.gz,4764a92d18856fa6b71091aa5cee04eada159c518b4955fcada42e1c65e2aa33
+hprc-v1.0-mc-chm13.min,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.min,1fd204fe5dffb8f17226768c31b5531dda4090608c7ad5a4a21b6f80cbdf2687
+hprc-v1.0-mc-chm13.snarls,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.snarls,92bbef00fed56909db3afcb9b57f44bfb101a5ee256ecea64ed5e632b584e4cc
+hprc-v1.0-mc-chm13.trans.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.trans.gz,455eb911500e74285d91f8942997f40d7415e6b788ea42779c09af1d8c9a7452
+hprc-v1.0-mc-chm13.vcf.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.vcf.gz,fc369a4eda6a5e2010ad659268c1dd8a70a45dd33b0e4d796b43b79c17c51766
+hprc-v1.0-mc-chm13.vcf.gz.tbi,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.vcf.gz.tbi,cb93cb6d962074c2dd7a3c23ab05f23fcfd035782418d65a089675436dbb5d04
+hprc-v1.0-mc-chm13.xg,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.xg,ef90bcc49581e9f989c3d31c337e60e7f55a671d06d66041af0bdef866ec4aec

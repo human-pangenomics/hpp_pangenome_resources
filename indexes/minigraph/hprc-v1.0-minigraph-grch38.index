@@ -1,0 +1,4 @@
+file,s3_loc,sha256
+hprc-v1.0-minigraph-grch38.bb.bed.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph/hprc-v1.0-minigraph-grch38.bb.bed.gz,f14f37d0ef21d5416982b017bda65ae4187799acb98440c856bffc2c647a1821
+hprc-v1.0-minigraph-grch38.bb.bed.gz.tbi,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph/hprc-v1.0-minigraph-grch38.bb.bed.gz.tbi,17be12769520c6484fd118e73c91f3a6a6f719bed4b1e0bd1b9bd84228175a56
+hprc-v1.0-minigraph-grch38.gfa.gz,s3://human-pangenomics/pangenomes/freeze/freeze1/minigraph/hprc-v1.0-minigraph-grch38.gfa.gz,b373301c49b55f73b384fcf79fb769062377ee4f8cbc6b3a145f55dbf027f5f8

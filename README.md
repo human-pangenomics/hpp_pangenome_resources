@@ -39,7 +39,7 @@ Information about the source assemblies can be found in the [HPRC Assembly GitHu
 
 ### Minigraph/CACTUS
 
-[The CACTUS pangenome pipeline](https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/pangenome.md) adds base-level alignments to the minigraph graphs above (so both GRCh38- and CHM13-based graphs are available). Centromeric regions are removed during  Minigraph/CACTUS graph creation.
+[The CACTUS pangenome pipeline](https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/pangenome.md) adds base-level alignments to the minigraph graphs above (so both GRCh38- and CHM13-based graphs are available). 
 
 Graphs and associated files are summarized below. 
 
@@ -59,6 +59,11 @@ The graphs are available in gfa format alongside other graph and index files. In
 
 #### Filtered Graphs
 The [Giraffe](https://www.biorxiv.org/content/10.1101/2020.12.04.412486v2.abstract) short read mapper relies on the graph's snarl decomposition.  The versions of the Cactus/Minigraph graphs released here contain some spurious large deletion edges that make this decomposition less efficient, which impacts Giraffe *runtime*. Furthermore, we have found that for calling small variants with the Giraffe-[DeepVariant](https://doi.org/10.1038/nbt.4235) pipeline, *accuracy* is improved if all alleles with frequency < 10% are removed from the graph before indexing.  Two filtered versions of each of the two Minigraph/Cactus graphs are available [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/minigraph-cactus/filtered/).  The graphs with `maxdel.10mb` in the name (recommended to speed up general mapping experiments) were created by removing edges that imply deletions > 10mb, and the graphs with `minaf.0.1` in the name (recommended when using with DeepVariant) were created by removing, in addition to the deletions, nodes that are covered by fewer than 9 haplotypes.
+
+#### Masked Sequence
+Highly repetitive sequence such as found in centromeres was excluded from the Minigraph/Cactus graphs using the following process. [dna-brnn](https://github.com/lh3/dna-nn) was first run with its default parameters and model to identify alpha satellite and hsat 2/3 regions >100kb, which were clipped out of the input fasta files. Gaps >100kb between minigraph mappings were likewise removed. Any remaining contigs or contig fragments that could not be assigned to a reference chromosome were excluded. Finally, gaps >10kb left unaligned after Cactus were removed. Each removed interval, as well as the step it was removed by, are available:
+* regions removed from GRCh38-based graph: [hprc-v1.0-mc-grch38.clipped-intervals.bed.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-grch38.clipped-intervals.bed.gz)
+* regions removed from CHM13-based graph: [hprc-v1.0-mc-chm13.clipped-intervals.bed.gz](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/hprc-v1.0-mc-chm13.clipped-intervals.bed.gz)
 
 ### PGGB
 

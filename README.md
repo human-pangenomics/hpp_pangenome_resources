@@ -85,7 +85,7 @@ Graphs and associated files are summarized below.
 
 Graph chromosome files and images can be found [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/pggb/chroms/) and [here](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/freeze1/pggb/images/).
 
-See [above](#vcf-decomposition) for more information of VCF decomposition ([script](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/minigraph-cactus/wave.pggb.grch38.a100k.sh)). 
+See [above](#vcf-decomposition) for more information of VCF decomposition ([script](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/freeze1/pggb/vcfs/wave.pggb.grch38.a100k.sh)). 
 
 ### Change Log
 

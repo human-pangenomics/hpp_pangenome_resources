@@ -5,6 +5,11 @@ This repo describes pangenomes produced by the [Human Pangenome Reference Consor
 Note: The pangenomes and resultant files referred to in this repo have not been fully QC'd, are not published, and may have known issues.
 
 ## Background Information
+
+### Preprint
+
+[A Draft Human Pangenome Reference](https://www.biorxiv.org/content/10.1101/2022.07.09.499321v1)
+
 ### Graph Creation Strategies
 
 Graphs are available from three different strategies summarized in the table (and relevant sections) below:

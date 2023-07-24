@@ -46,7 +46,7 @@ Information about the source assemblies can be found in the [HPRC Assembly GitHu
 
 [Minigraph-Cactus](https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/pangenome.md) ([cite](https://doi.org/10.1038/s41587-023-01793-w)) adds base-level alignment to `minigraph` graphs.
 
-**Note:** The links below have been updated to point to [version 1.1](https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/mc-pangenomes/hprc-v1.1-mc.md) of the graphs which contain numerous bug fixes and updated file formats.  The original version 1.0 graph that was described in [the HPRC paper](https://doi.org/10.1038/s41586-023-05896-x), has been moved [here](hprc-v1.0-mc.md). The input assemblies are the same for both versions, so unless you are trying to exactly reproduce results from the paper, please consider using the updated version.  
+**Note:** The links below have been updated to point to [version 1.1](https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/doc/mc-pangenomes/hprc-v1.1-mc.md) of the graphs which contain numerous bug fixes and updated file formats (this includes switching from `.` to `#` as path name separator in all vg files).  The original version 1.0 graph that was described in [the HPRC paper](https://doi.org/10.1038/s41586-023-05896-x), has been moved [here](hprc-v1.0-mc.md). The input assemblies are the same for both versions, so unless you are trying to exactly reproduce results from the paper, please consider using the updated version.  
 
 Graphs and associated files are summarized below. 
 

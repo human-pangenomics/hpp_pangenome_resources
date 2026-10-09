@@ -152,11 +152,18 @@ These outputs are still experimental.
 
 #### Graphs (PGGB)
 
-Graphs were built with pggb `-p 98 -k 311` and are provided as whole-genome, per-chromosome, and per-partition (community) GFAs. All files are [zstd](https://github.com/facebook/zstd)-compressed (`.zst`).
+Graphs were built with pggb `-p 98 -k 311` and are provided as whole-genome, per-chromosome, and per-partition (community) GFAs. The GFAs are [zstd](https://github.com/facebook/zstd)-compressed (`.zst`).
+
+The whole-genome graph is also provided in [GBZ](https://github.com/jltsiren/gbwtgraph/blob/master/SERIALIZATION.md) format, in two versions of the file format:
+* `.v1.gbz`: GBZ version 1, readable by older releases of vg and other GBZ tools.
+* `.v3.gbz`: GBZ version 3, a smaller file (the GBWT is zstd-compressed) that requires a recent release of vg or other GBZ tools.
+
+A [gbz-base](https://github.com/jltsiren/gbz-base) database (`.gbz.db`) is also provided, giving efficient random access to the graph without loading it into memory.
 
 | <sub>**Description**</sub> | <sub>**Location**</sub> |
 | :-------- | :------ |
-| <sub> Whole-genome graph </sub> | <sub> [gfa](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/release2/pggb/gfas/whole-genome/20250930_hprc25272.p98-k311.tmp.fix.gfa.zst) </sub> |
+| <sub> Whole-genome graph </sub> | <sub> [gfa](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/release2/pggb/gfas/whole-genome/20250930_hprc25272.p98-k311.tmp.fix.gfa.zst) &nbsp; &nbsp; [gbz v1](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/release2/pggb/gfas/whole-genome/20250930_hprc25272.p98-k311.tmp.fix.v1.gbz) &nbsp; &nbsp; [gbz v3](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/release2/pggb/gfas/whole-genome/20250930_hprc25272.p98-k311.tmp.fix.v3.gbz) </sub> |
+| <sub> GBZ-Base Index </sub> | <sub> [gbz.db](https://s3-us-west-2.amazonaws.com/human-pangenomics/pangenomes/freeze/release2/pggb/gfas/whole-genome/20250930_hprc25272.p98-k311.tmp.fix.gbz.db) </sub> |
 | <sub> Per-chromosome graphs </sub> | <sub> [gfas](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/release2/pggb/gfas/by-chromosome/) </sub> |
 | <sub> Partition graphs </sub> | <sub> [gfas](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/release2/pggb/gfas/whole-genome/20250823_hprc25272.p98-k311_partitions/) </sub> |
 | <sub> All Files </sub> | <sub> [files](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=pangenomes/freeze/release2/pggb/gfas/) </sub> |
